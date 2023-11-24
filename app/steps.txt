@@ -1,0 +1,7 @@
+sudo docker login -u aniruddh2310
+
+sudo docker build -t trial.java .
+
+sudo docker tag trial.java aniruddh2310/trial.java
+
+sudo docker push aniruddh2310/trial.java:latest
